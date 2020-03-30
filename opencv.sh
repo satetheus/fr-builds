@@ -9,9 +9,9 @@ sudo apt install -y build-essential cmake git pkg-config libgtk-3-dev \
     
 mkdir ~/opencv_build && cd ~/opencv_build
 git clone https://github.com/opencv/opencv.git
-git clone https://github.com/opencv/opencv_contrib.git
 
 cd ~/opencv_build/opencv
+git checkout 5.4
 mkdir build && cd build
 
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
