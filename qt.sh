@@ -3,4 +3,4 @@
 
 sudo apt-get update
 
-sudo apt-get install qt5-default libqt5svg5-dev qtcreator
+sudo apt-get install -y qt5-default libqt5svg5-dev qtcreator
