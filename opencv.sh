@@ -5,7 +5,7 @@ sudo apt-get update
 
 sudo apt install -y \
                 build-essential \
-                cmake \ 
+                cmake \
                 git \
                 pkg-config \
                 libgtk-3-dev \
