@@ -1,6 +1,8 @@
 #! /usr/bin/env bash
 # ubuntu 18.04
 
+# installs opencv 2.4
+
 sudo apt-get update
 
 sudo apt install -y \
