@@ -1,6 +1,8 @@
 #! /usr/bin/env bash
 # ubuntu 18.04
 
+sudo apt-get update
+
 sudo apt install -y build-essential cmake git pkg-config libgtk-3-dev \
     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
     libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \
