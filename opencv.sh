@@ -42,6 +42,6 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D OPENCV_GENERATE_PKGCONFIG=ON \
     -D BUILD_EXAMPLES=ON ..
     
-make -j4
+make -j6
 
 sudo make install
